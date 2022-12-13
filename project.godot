@@ -17,7 +17,7 @@ _global_script_classes=[{
 "base": "CharacterBody2D",
 "class": &"PlayerCharacter",
 "language": &"GDScript",
-"path": "res://PlayerCharacter.gd"
+"path": "res://scenes/player_twinstick/PlayerCharacter.gd"
 }]
 _global_script_class_icons={
 "Bullet": "",
@@ -27,9 +27,9 @@ _global_script_class_icons={
 [application]
 
 config/name="Lab.godot"
-run/main_scene="res://LevelOne.tscn"
+run/main_scene="res://scenes/levels/Level_01.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://assets/icon.svg"
 
 [input]
 

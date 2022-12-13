@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://drov7mnadtn5x"]
+
+[ext_resource type="PackedScene" path="res://scenes/player_twinstick/PlayerCharacter.tscn" id="1_jqg03"]
+
+[node name="LevelOne" type="Node2D"]
+
+[node name="PlayerCharacter" parent="." instance=ExtResource("1_jqg03")]
+position = Vector2(108, 97)

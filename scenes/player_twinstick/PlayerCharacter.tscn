@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="Script" path="res://PlayerCharacter.gd" id="1_6r4j2"]
+[ext_resource type="Script" path="res://scenes/player_twinstick/PlayerCharacter.gd" id="1_6r4j2"]
 [ext_resource type="Texture2D" uid="uid://bcj1r7ejuu011" path="res://assets/tiger/Tiger_4.png" id="1_ib0de"]
-[ext_resource type="PackedScene" uid="uid://dw1nu28vbjf1u" path="res://Bullet.tscn" id="2_ahmka"]
+[ext_resource type="PackedScene" path="res://Bullet.tscn" id="2_ahmka"]
 
 [node name="PlayerCharacter" type="CharacterBody2D"]
 script = ExtResource("1_6r4j2")

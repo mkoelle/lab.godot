@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpkpfo6ts6wyr"]
+
+[ext_resource type="SpriteFrames" uid="uid://lh2h1832l1u1" path="res://resources/kenny_character_sprites.tres" id="1_xw5yq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j6txo"]
+size = Vector2(14, 18)
+
+[node name="playerPlatformer" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -12)
+frames = ExtResource("1_xw5yq")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -9)
+shape = SubResource("RectangleShape2D_j6txo")
