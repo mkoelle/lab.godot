@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cpkpfo6ts6wyr"]
+[gd_scene load_steps=4 format=3 uid="uid://cpkpfo6ts6wyr"]
 
+[ext_resource type="Script" path="res://scenes/player_platformer/player_platformer.gd" id="1_pmisn"]
 [ext_resource type="SpriteFrames" uid="uid://lh2h1832l1u1" path="res://resources/kenny_character_sprites.tres" id="1_xw5yq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j6txo"]
 size = Vector2(14, 18)
 
 [node name="playerPlatformer" type="CharacterBody2D"]
+script = ExtResource("1_pmisn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -12)
