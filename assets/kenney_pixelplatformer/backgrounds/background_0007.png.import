@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqe7s3lnhv6gn"
-path="res://.godot/imported/Tiger_1.png-853344d6d1f857e1aaf04d3d24fcd53d.ctex"
+uid="uid://c4uoyb6v7mlih"
+path="res://.godot/imported/background_0007.png-eac0869d4b075b87c25e3c88119944d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiger_1.png"
-dest_files=["res://.godot/imported/Tiger_1.png-853344d6d1f857e1aaf04d3d24fcd53d.ctex"]
+source_file="res://assets/kenney_pixelplatformer/backgrounds/background_0007.png"
+dest_files=["res://.godot/imported/background_0007.png-eac0869d4b075b87c25e3c88119944d0.ctex"]
 
 [params]
 

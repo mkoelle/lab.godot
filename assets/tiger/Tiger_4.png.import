@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4g4kh1u5mopa"
-path="res://.godot/imported/Tiger_3.png-e6c87bd44cde4f8a1efc8bd48477a175.ctex"
+uid="uid://bcj1r7ejuu011"
+path="res://.godot/imported/Tiger_4.png-603bc5b80c90b83f27fb35205a03b611.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiger_3.png"
-dest_files=["res://.godot/imported/Tiger_3.png-e6c87bd44cde4f8a1efc8bd48477a175.ctex"]
+source_file="res://assets/tiger/Tiger_4.png"
+dest_files=["res://.godot/imported/Tiger_4.png-603bc5b80c90b83f27fb35205a03b611.ctex"]
 
 [params]
 

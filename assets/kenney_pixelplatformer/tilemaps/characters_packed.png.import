@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn8gjp5kbga42"
-path="res://.godot/imported/Tiger_2.png-a4b02f70a4a1bb5bcf8fb5ea248af44a.ctex"
+uid="uid://xoffng8kifdr"
+path="res://.godot/imported/characters_packed.png-8bae5da76924dad538a72735ce5459c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tiger_2.png"
-dest_files=["res://.godot/imported/Tiger_2.png-a4b02f70a4a1bb5bcf8fb5ea248af44a.ctex"]
+source_file="res://assets/kenney_pixelplatformer/tilemaps/characters_packed.png"
+dest_files=["res://.godot/imported/characters_packed.png-8bae5da76924dad538a72735ce5459c4.ctex"]
 
 [params]
 
