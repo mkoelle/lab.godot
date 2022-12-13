@@ -31,6 +31,13 @@ run/main_scene="res://scenes/levels/Level_01.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://assets/icon.svg"
 
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=180
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_width"
+
 [input]
 
 move_left={
