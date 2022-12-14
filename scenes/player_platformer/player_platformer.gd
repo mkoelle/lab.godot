@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var gravity = 10000
+var gravity = 300
 var maxHorizontalSpeed := 140
 var horizontalAcceleration := 2000
 var jumpSpeed := 360
@@ -13,10 +13,11 @@ func _ready():
 func _process(delta):
 	var moveVector= get_movement_vector()
 	var vec = velocity
-	if (moveVector.x != 0):
-		var bee =pow(2, -50 * delta)
-		vec.x = lerp(0, vec.x, bee)
-	vec.x = clamp(vec.x, -maxHorizontalSpeed, maxHorizontalSpeed)
+	# vec.x += moveVector.x * horizontalAcceleration *delta
+	# if (moveVector.x == 0):
+	#	var bee =pow(2, -50 * delta)
+	#	vec.x = lerp(0, vec.x, bee)
+	#	vec.x = clamp(vec.x, -maxHorizontalSpeed, maxHorizontalSpeed)
 	if (moveVector.y < 0 && is_on_floor()):
 		vec.y = moveVector.y * jumpSpeed
 	if (vec.y < 0 && !Input.is_action_pressed("shoot")):
