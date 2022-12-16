@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://4d3xlkm1tui0"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://c4xue422vwukh"]
 
 [ext_resource type="Texture2D" uid="uid://dm3ov1gdjs11i" path="res://assets/kenney_pixelplatformer/tilemaps/tiles_packed.png" id="1_albgv"]
 
@@ -141,6 +141,7 @@ texture_region_size = Vector2i(18, 18)
 0:7/0/terrain_set = 0
 0:7/0/terrain = 0
 0:7/0/terrains_peering_bit/top_side = 0
+10:1/0 = 0
 
 [resource]
 tile_size = Vector2i(18, 18)
