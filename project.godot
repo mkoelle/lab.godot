@@ -27,9 +27,8 @@ _global_script_class_icons={
 [application]
 
 config/name="Lab.godot"
-run/main_scene="res://LevelOne.tscn"
+run/main_scene="res://scenes/levels/Level_03.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
-config/icon="res://icon.svg"
 
 [display]
 
@@ -76,3 +75,4 @@ shoot={
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/canvas_textures/default_texture_filter=0
